@@ -193,7 +193,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton("• ᴄʟɪᴄᴋ ғᴏʀ ᴍᴏʀᴇ •", callback_data='about')],
                     [InlineKeyboardButton("• sᴇᴛᴛɪɴɢs", callback_data='setting'),
-                     InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ •', url='https://t.me/urr_sanjiii')],
+                     InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ •', url='https://t.me/PelDiya')],
                     [InlineKeyboardButton("• ᴏᴜʀ ᴀɴɪᴍᴇ ᴄᴏᴍᴍᴜɴɪᴛʏ •", url='https://t.me/Battousi_Network')],
                 ]),
         )
@@ -1034,7 +1034,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 f"» ᴇᴘɪsᴏᴅᴇs: {anime.get('episodes', 'Unknown')}\n"
                 f"» sᴄᴏʀᴇ: {anime.get('score', 'N/A')}\n"
                 f"» sʏɴᴏᴘsɪs: {anime.get('synopsis', 'No synopsis available.')}\n"
-                f"[MyAnimeList]({anime.get('url', '#')})"
+                f"[MyAnimeList X @PythonBotz]({anime.get('url', '#')})"
             )
 
             await query.message.edit_text(
