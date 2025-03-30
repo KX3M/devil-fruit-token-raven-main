@@ -1034,7 +1034,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 f"» ᴇᴘɪsᴏᴅᴇs: {anime.get('episodes', 'Unknown')}\n"
                 f"» sᴄᴏʀᴇ: {anime.get('score', 'N/A')}\n"
                 f"» sʏɴᴏᴘsɪs: {anime.get('synopsis', 'No synopsis available.')}\n"
-                f"[MyAnimeList X @PythonBotz]({anime.get('url', '#')})"
+                f"[MyAnimeList X @Anime_Raven]({anime.get('url', '#')})"
             )
 
             await query.message.edit_text(
